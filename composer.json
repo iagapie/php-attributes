@@ -1,0 +1,32 @@
+{
+  "name": "iagapie/php-attributes",
+  "type": "library",
+  "description": "PHP 8 Attributes Resolver",
+  "keywords": [
+    "php8",
+    "php",
+    "attribute"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Agapie",
+      "email": "igoragapie@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">= 8.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "IA\\PhpAttributes\\": "src/"
+    }
+  }
+}
